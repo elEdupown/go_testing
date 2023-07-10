@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World!")
-	variables.ShowIntegers()
+	estado, texto := variables.ConvertToText(1023)
+	fmt.Println(estado, texto)
 }
