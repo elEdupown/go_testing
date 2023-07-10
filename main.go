@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/elEdupown/go_testing/ejericios"
+	"github.com/elEdupown/go_testing/ejercicios"
 	//"runtime"
 	//"github.com/elEdupown/go_testing/variables"
 )
@@ -25,7 +25,7 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	} */
-
+	
 	numero, texto := ejercicios.Ejercicio("100")
 	fmt.Println(numero, texto)
 }
