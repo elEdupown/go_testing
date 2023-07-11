@@ -2,7 +2,7 @@ package main
 
 import (
 	//"fmt"
-	"github.com/elEdupown/go_testing/iteraciones"
+	"github.com/elEdupown/go_testing/ejercicios"
 	//"runtime"
 )
 
@@ -28,7 +28,9 @@ func main() {
 	numero, texto := ejercicios.Ejercicio("100")
 	fmt.Println(numero, texto)
 
-	teclado.IngresoNumeros()*/
+	teclado.IngresoNumeros()
 
-	iteraciones.Iterar()
+	iteraciones.Iterar()*/
+
+	ejercicios.Tabla()
 }
