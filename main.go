@@ -1,8 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"github.com/elEdupown/go_testing/ejercicios"
+	//"fmt"
+	"github.com/elEdupown/go_testing/teclado"
+	//"github.com/elEdupown/go_testing/ejercicios"
 	//"runtime"
 	//"github.com/elEdupown/go_testing/variables"
 )
@@ -26,6 +27,8 @@ func main() {
 		fmt.Printf("%s \n", os)
 	} */
 	
-	numero, texto := ejercicios.Ejercicio("100")
-	fmt.Println(numero, texto)
+	/*numero, texto := ejercicios.Ejercicio("100")
+	fmt.Println(numero, texto)*/
+
+	teclado.IngresoNumeros()
 }
