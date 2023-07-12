@@ -1,8 +1,8 @@
 package main
 
 import (
-	//"fmt"
-	"github.com/elEdupown/go_testing/ejercicios"
+	"fmt"
+	"github.com/elEdupown/go_testing/files"
 	//"runtime"
 )
 
@@ -30,7 +30,10 @@ func main() {
 
 	teclado.IngresoNumeros()
 
-	iteraciones.Iterar()*/
+	iteraciones.Iterar()
 
-	ejercicios.Tabla()
+	fmt.Println(ejercicios.Tabla())
+	files.GrabarTabla()
+	files.SumaTabla() */
+	fmt.Println(files.LeerArchivo())
 }
