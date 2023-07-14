@@ -1,8 +1,13 @@
 package main
 
 import (
+<<<<<<< HEAD
 	//"fmt"
 	"github.com/elEdupown/go_testing/arreglos_slices"
+=======
+	"fmt"
+	"github.com/elEdupown/go_testing/files"
+>>>>>>> ac3b6d217ea8f9952864c245934a6e3160ea49a8
 	//"runtime"
 )
 
@@ -32,7 +37,15 @@ func main() {
 
 	iteraciones.Iterar()
 
+<<<<<<< HEAD
 	ejercicios.Tabla()*/
 
 	arreglos_slices.Capacidad()
 }
+=======
+	fmt.Println(ejercicios.Tabla())
+	files.GrabarTabla()
+	files.SumaTabla() */
+	fmt.Println(files.LeerArchivo())
+}
+>>>>>>> ac3b6d217ea8f9952864c245934a6e3160ea49a8

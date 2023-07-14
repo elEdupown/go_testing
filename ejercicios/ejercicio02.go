@@ -8,11 +8,12 @@ import (
 )
 
 
-func Tabla() {
+func Tabla() string{
 	scanner := bufio.NewScanner(os.Stdin)
 
 	var err error
 	var num int
+	var text string
 
 	for {
 		fmt.Println("Ingrese un número: ")
@@ -27,6 +28,8 @@ func Tabla() {
 	}
 
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d x %d = %d \n", num, i, num*i)
+		text += fmt.Sprintf("%d x %d = %d \n", num, i, num*i)
 	}
+
+	return text
 }
