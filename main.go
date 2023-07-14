@@ -2,7 +2,7 @@ package main
 
 import (
 	//"fmt"
-	"github.com/elEdupown/go_testing/ejercicios"
+	"github.com/elEdupown/go_testing/arreglos_slices"
 	//"runtime"
 )
 
@@ -23,14 +23,16 @@ func main() {
 		fmt.Println("El sistema operativo es darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	} 
-	
+	}
+
 	numero, texto := ejercicios.Ejercicio("100")
 	fmt.Println(numero, texto)
 
 	teclado.IngresoNumeros()
 
-	iteraciones.Iterar()*/
+	iteraciones.Iterar()
 
-	ejercicios.Tabla()
+	ejercicios.Tabla()*/
+
+	arreglos_slices.Capacidad()
 }
