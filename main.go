@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/elEdupown/go_testing/arreglos_slices"
+	"github.com/elEdupown/go_testing/mapas"
 )
 
 func main() {
@@ -38,5 +38,5 @@ func main() {
 	files.SumaTabla()
 	fmt.Println(files.LeerArchivo())
 	*/
-	arreglos_slices.ShowSlice()
+	mapas.ShowMap()
 }
