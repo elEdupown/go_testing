@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/elEdupown/go_testing/mapas"
-)
+import "github.com/elEdupown/go_testing/users"
 
 func main() {
 	/*estado, texto := variables.ConvertToText(1023)
@@ -37,6 +35,8 @@ func main() {
 	files.GrabarTabla()
 	files.SumaTabla()
 	fmt.Println(files.LeerArchivo())
-	*/
-	mapas.ShowMap()
+
+	mapas.ShowMap()*/
+
+	users.MiUsuario()
 }
