@@ -1,6 +1,8 @@
 package main
 
-import "github.com/elEdupown/go_testing/users"
+import (
+	"github.com/elEdupown/go_testing/defer_panic"
+)
 
 func main() {
 	/*estado, texto := variables.ConvertToText(1023)
@@ -36,7 +38,15 @@ func main() {
 	files.SumaTabla()
 	fmt.Println(files.LeerArchivo())
 
-	mapas.ShowMap()*/
+	mapas.ShowMap()
 
 	users.MiUsuario()
+
+	Eduardo := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Eduardo)
+
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)*/
+
+	defer_panic.ExamplePanic()
 }
