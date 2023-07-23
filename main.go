@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/elEdupown/go_testing/defer_panic"
+	"github.com/elEdupown/go_testing/goRoutines"
+	"fmt"
 )
 
 func main() {
@@ -46,7 +47,19 @@ func main() {
 	ejer_interfaces.HumanosRespirando(Eduardo)
 
 	Maria := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(Maria)*/
+	ejer_interfaces.HumanosRespirando(Maria)
 
-	defer_panic.ExamplePanic()
+	defer_panic.ExamplePanic()*/
+
+	canal1 := make(chan bool)
+
+	go goRoutines.MySlowName("Eduardo", canal1)
+	defer func() {
+		<- canal1
+		// puedo poner más cosas acá, simulando el await de JS
+	}()
+
+	fmt.Println("Estoy aqui")
+
+
 }
