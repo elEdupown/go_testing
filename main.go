@@ -1,8 +1,7 @@
 package main
 
 import (
-	"github.com/elEdupown/go_testing/goRoutines"
-	"fmt"
+	"github.com/elEdupown/go_testing/middleware"
 )
 
 func main() {
@@ -49,7 +48,7 @@ func main() {
 	Maria := new(modelos.Mujer)
 	ejer_interfaces.HumanosRespirando(Maria)
 
-	defer_panic.ExamplePanic()*/
+	defer_panic.ExamplePanic()
 
 	canal1 := make(chan bool)
 
@@ -61,5 +60,7 @@ func main() {
 
 	fmt.Println("Estoy aqui")
 
+	webserver.MyWebServer()*/
 
+	middleware.MyMiddleware()
 }
